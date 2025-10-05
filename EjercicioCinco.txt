@@ -1,0 +1,5 @@
+2edad inválido porque mepieza por número;
+_curso válido pero se evitaría empezar con una _
+while palabra reservada: inválido
+Nombre sería mejor para una clase; como variable mejor minúscula siempre
+precioTotal: perfecto, camelcase a rajatabla
