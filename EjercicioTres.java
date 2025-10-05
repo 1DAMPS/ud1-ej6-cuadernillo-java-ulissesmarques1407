@@ -6,7 +6,7 @@ import java.util.Scanner;
             System.out.println("Cuál es tu edad?");
             int edad = sc.nextInt();
             System.out.println("Tienes " + edad + " años");
-           
+            sc.close();
 
 
 

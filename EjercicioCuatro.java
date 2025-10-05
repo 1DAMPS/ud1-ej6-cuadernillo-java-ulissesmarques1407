@@ -12,5 +12,5 @@ public class EjercicioCuatro {    //se crea primero una clase EjercicioCuatro (e
         int uli = foo + bar;
         System.out.println("La suma de los dos números es:" + uli);  
 
-
+        sc.close();
     }}
