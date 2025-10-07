@@ -1,8 +1,8 @@
 import java.util.Scanner; // este me costó mucho, miré tutoriales
  // se importa la librería util para el scanner 
-public class EjercicioSiete{ 
+public class EjercicioSiete{ /* no entiendo porque el método edadHumano no lleva static */
     
-        public void EdadHumano(double edadGato){ /*  en esta parte me perdía porque no sabía si declarar 
+        public void edadHumano(double edadGato){ /*  en esta parte me perdía porque no sabía si declarar 
              las variables antes o después del método*/
             double humano = 4 * edadGato + 16; 
             System.out.println("La edad humana de tu gato sería " + humano);
@@ -14,7 +14,7 @@ public class EjercicioSiete{
         double edadGato = sc.nextDouble(); //input
         sc.close(); //cierro scanner
 
-        new EjercicioSiete() .EdadHumano(edadGato); //esto lo saqué de internet, no lo entiendo al 100%.
+        new EjercicioSiete() .edadHumano(edadGato); //esto lo saqué de internet, no lo entiendo al 100%.
          }
 }
 /*me daba error: non-static variable humano cannot be referenced from a static context
